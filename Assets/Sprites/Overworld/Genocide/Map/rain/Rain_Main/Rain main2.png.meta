@@ -1,0 +1,587 @@
+fileFormatVersion: 2
+guid: a5f01b08606b8ed4d80335d661f1daa1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4505577493521695830
+    second: Rain main2_0
+  - first:
+      213: -2328345278505903167
+    second: Rain main2_1
+  - first:
+      213: -8819440981486507544
+    second: Rain main2_2
+  - first:
+      213: 5616402228654160537
+    second: Rain main2_3
+  - first:
+      213: 9184706025915761666
+    second: Rain main2_4
+  - first:
+      213: -474621545551496498
+    second: Rain main2_5
+  - first:
+      213: 4994496439447521278
+    second: Rain main2_6
+  - first:
+      213: -2381888036201589346
+    second: Rain main2_7
+  - first:
+      213: 3053587137811355788
+    second: Rain main2_8
+  - first:
+      213: -8691079480177758874
+    second: Rain main2_9
+  - first:
+      213: -2110879327774807822
+    second: Rain main2_10
+  - first:
+      213: 3574961829332165851
+    second: Rain main2_11
+  - first:
+      213: 884590061218602071
+    second: Rain main2_12
+  - first:
+      213: 136992768898426730
+    second: Rain main2_13
+  - first:
+      213: -4363330047352065415
+    second: Rain main2_14
+  - first:
+      213: 5644891183983412009
+    second: Rain main2_15
+  - first:
+      213: 7201360071149520576
+    second: Rain main2_16
+  - first:
+      213: -2229064638909542398
+    second: Rain main2_17
+  - first:
+      213: -5863673719563484441
+    second: Rain main2_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rain main2_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 323
+        width: 55
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6540b59dbd6078e30800000000000000
+      internalID: 4505577493521695830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 305
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb92382e4e00bfd0800000000000000
+      internalID: -2328345278505903167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 285
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e969fc972d0b9580800000000000000
+      internalID: -8819440981486507544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 247
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ab4aae11871fd40800000000000000
+      internalID: 5616402228654160537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 261
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2044919c771a67f70800000000000000
+      internalID: 9184706025915761666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 231
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecaf7ae083ec969f0800000000000000
+      internalID: -474621545551496498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 219
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef70939bc04005540800000000000000
+      internalID: 4994496439447521278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 197
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95937b6375d1fed0800000000000000
+      internalID: -2381888036201589346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 153
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8892ffb255806a20800000000000000
+      internalID: 3053587137811355788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 161
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d61559245136780800000000000000
+      internalID: -8691079480177758874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 119
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f864407f66a4b2e0800000000000000
+      internalID: -2110879327774807822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 117
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4ace2c7d0dc9130800000000000000
+      internalID: 3574961829332165851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 131
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c96c259f1b64c00800000000000000
+      internalID: 884590061218602071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 107
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67ecfe8232b6e100800000000000000
+      internalID: 136992768898426730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 37
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972bac990765273c0800000000000000
+      internalID: -4363330047352065415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 51
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923c019bf9ea65e40800000000000000
+      internalID: 5644891183983412009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 15
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c68c8c84de50f360800000000000000
+      internalID: 7201360071149520576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_17
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 29
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20099606585c011e0800000000000000
+      internalID: -2229064638909542398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main2_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e200a2b1db00aea0800000000000000
+      internalID: -5863673719563484441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rain main2_0: 4505577493521695830
+      Rain main2_1: -2328345278505903167
+      Rain main2_10: -2110879327774807822
+      Rain main2_11: 3574961829332165851
+      Rain main2_12: 884590061218602071
+      Rain main2_13: 136992768898426730
+      Rain main2_14: -4363330047352065415
+      Rain main2_15: 5644891183983412009
+      Rain main2_16: 7201360071149520576
+      Rain main2_17: -2229064638909542398
+      Rain main2_18: -5863673719563484441
+      Rain main2_2: -8819440981486507544
+      Rain main2_3: 5616402228654160537
+      Rain main2_4: 9184706025915761666
+      Rain main2_5: -474621545551496498
+      Rain main2_6: 4994496439447521278
+      Rain main2_7: -2381888036201589346
+      Rain main2_8: 3053587137811355788
+      Rain main2_9: -8691079480177758874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

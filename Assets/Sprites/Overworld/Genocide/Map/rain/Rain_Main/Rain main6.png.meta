@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 4d60ec47e23af78428b2721a8b3ed504
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5686421565851348936
+    second: Rain main6_0
+  - first:
+      213: 3800289450090547963
+    second: Rain main6_1
+  - first:
+      213: -1390228548547151391
+    second: Rain main6_2
+  - first:
+      213: 3878967913786972482
+    second: Rain main6_3
+  - first:
+      213: -4850927147437334714
+    second: Rain main6_4
+  - first:
+      213: 4329358105240962711
+    second: Rain main6_5
+  - first:
+      213: -3648609911281132453
+    second: Rain main6_6
+  - first:
+      213: 686272837501839377
+    second: Rain main6_7
+  - first:
+      213: 8956958068578931849
+    second: Rain main6_8
+  - first:
+      213: 7631721157771449852
+    second: Rain main6_9
+  - first:
+      213: -1354061818529683664
+    second: Rain main6_10
+  - first:
+      213: 1108336808600184433
+    second: Rain main6_11
+  - first:
+      213: 8373568554505005290
+    second: Rain main6_12
+  - first:
+      213: -422172325445919433
+    second: Rain main6_13
+  - first:
+      213: -3098327229525092499
+    second: Rain main6_14
+  - first:
+      213: -6108252817545777819
+    second: Rain main6_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rain main6_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 257
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8305f4cb6b5c511b0800000000000000
+      internalID: -5686421565851348936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 301
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfacf4cbe175db430800000000000000
+      internalID: 3800289450090547963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 271
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e97d37308ae4bce0800000000000000
+      internalID: -1390228548547151391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249196414ccd4d530800000000000000
+      internalID: 3878967913786972482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 177
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fd2b1f57b0eacb0800000000000000
+      internalID: -4850927147437334714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 191
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79688504248f41c30800000000000000
+      internalID: 4329358105240962711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_6
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 155
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c5e1aed988d5dc0800000000000000
+      internalID: -3648609911281132453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 169
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118eb4a7281268900800000000000000
+      internalID: 686272837501839377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_8
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 137
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98457b948e18d4c70800000000000000
+      internalID: 8956958068578931849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 117
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5dcc955f159e960800000000000000
+      internalID: 7631721157771449852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 101
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0376e9e33f7653de0800000000000000
+      internalID: -1354061818529683664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 87
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176aa18847a916f00800000000000000
+      internalID: 1108336808600184433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 71
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8e6a93c34e43470800000000000000
+      internalID: 8373568554505005290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_13
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 59
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d9bcbb184242af0800000000000000
+      internalID: -422172325445919433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 37
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d679c36ecc78005d0800000000000000
+      internalID: -3098327229525092499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain main6_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56da7e3ec602b3ba0800000000000000
+      internalID: -6108252817545777819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rain main6_0: -5686421565851348936
+      Rain main6_1: 3800289450090547963
+      Rain main6_10: -1354061818529683664
+      Rain main6_11: 1108336808600184433
+      Rain main6_12: 8373568554505005290
+      Rain main6_13: -422172325445919433
+      Rain main6_14: -3098327229525092499
+      Rain main6_15: -6108252817545777819
+      Rain main6_2: -1390228548547151391
+      Rain main6_3: 3878967913786972482
+      Rain main6_4: -4850927147437334714
+      Rain main6_5: 4329358105240962711
+      Rain main6_6: -3648609911281132453
+      Rain main6_7: 686272837501839377
+      Rain main6_8: 8956958068578931849
+      Rain main6_9: 7631721157771449852
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

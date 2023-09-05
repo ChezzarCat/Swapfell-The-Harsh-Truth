@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 078b40f241fa2524da71a81a934e5ef9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3718763337147400751
+    second: game_over_0
+  - first:
+      213: 8210110104021037057
+    second: game_over_1
+  - first:
+      213: 2368735952226856074
+    second: game_over_2
+  - first:
+      213: -6359657437032589652
+    second: game_over_3
+  - first:
+      213: 739233984717024504
+    second: game_over_4
+  - first:
+      213: -80491688085151544
+    second: game_over_5
+  - first:
+      213: -3329801960916472196
+    second: game_over_6
+  - first:
+      213: 6988685993685930858
+    second: game_over_7
+  - first:
+      213: 6644109130193051833
+    second: game_over_8
+  - first:
+      213: 5548085290849476359
+    second: game_over_9
+  - first:
+      213: -5828574190469970372
+    second: game_over_10
+  - first:
+      213: -5385774065372755883
+    second: game_over_11
+  - first:
+      213: -4351048223441845648
+    second: game_over_12
+  - first:
+      213: -3076892750258812811
+    second: game_over_13
+  - first:
+      213: -5375548024068547233
+    second: game_over_14
+  - first:
+      213: 4681530460186396861
+    second: game_over_15
+  - first:
+      213: 464591635658723481
+    second: game_over_16
+  - first:
+      213: 6838443315301586427
+    second: game_over_17
+  - first:
+      213: 1200976623228101178
+    second: game_over_18
+  - first:
+      213: -2548245598531387090
+    second: game_over_19
+  - first:
+      213: -269541601269728485
+    second: game_over_20
+  - first:
+      213: 4522240129592466186
+    second: game_over_21
+  - first:
+      213: -7464269190235438350
+    second: game_over_22
+  - first:
+      213: -7423828978292597592
+    second: game_over_23
+  - first:
+      213: -2057150452153428326
+    second: game_over_24
+  - first:
+      213: -5773214378417886975
+    second: game_over_25
+  - first:
+      213: -7741978092566132961
+    second: game_over_26
+  - first:
+      213: 8911295349403724502
+    second: game_over_27
+  - first:
+      213: 7023390243439864334
+    second: game_over_28
+  - first:
+      213: 7078792908544250135
+    second: game_over_29
+  - first:
+      213: -8376656044462271195
+    second: game_over_30
+  - first:
+      213: -6553018206348178056
+    second: game_over_31
+  - first:
+      213: 4252426450745010605
+    second: game_over_32
+  - first:
+      213: -5127546525476833893
+    second: game_over_33
+  - first:
+      213: 6045918510462794535
+    second: game_over_34
+  - first:
+      213: -2493259948531124963
+    second: game_over_35
+  - first:
+      213: 5099567707250797479
+    second: game_over_36
+  - first:
+      213: 7379880385400445158
+    second: game_over_37
+  - first:
+      213: 6573527807825474327
+    second: game_over_38
+  - first:
+      213: -5441164606825663553
+    second: game_over_39
+  - first:
+      213: 4469065563332045174
+    second: game_over_40
+  - first:
+      213: -8004997780462750283
+    second: game_over_41
+  - first:
+      213: -4390697226750055980
+    second: game_over_42
+  - first:
+      213: 661813858236468080
+    second: game_over_43
+  - first:
+      213: 1053588992970703365
+    second: game_over_44
+  - first:
+      213: 8589759009242775203
+    second: game_over_45
+  - first:
+      213: -5707088444597949385
+    second: game_over_46
+  - first:
+      213: -5718905536503425346
+    second: game_over_47
+  - first:
+      213: -7623830589175023298
+    second: game_over_48
+  - first:
+      213: -4408357855852732096
+    second: game_over_49
+  - first:
+      213: -4204017171566643044
+    second: game_over_50
+  - first:
+      213: 5056163085156578916
+    second: game_over_51
+  - first:
+      213: 3514000164124857116
+    second: game_over_52
+  - first:
+      213: -2264576154952515403
+    second: game_over_53
+  - first:
+      213: -2133814987132141043
+    second: game_over_54
+  - first:
+      213: -9130908109226633515
+    second: game_over_55
+  - first:
+      213: -4939859242935521655
+    second: game_over_56
+  - first:
+      213: 6502923078010746471
+    second: game_over_57
+  - first:
+      213: 3528780719580229892
+    second: game_over_58
+  - first:
+      213: -6198724590731189329
+    second: game_over_59
+  - first:
+      213: 3948544702702893987
+    second: game_over_60
+  - first:
+      213: 8770164900776781891
+    second: game_over_61
+  - first:
+      213: 2043130563338639431
+    second: game_over_62
+  - first:
+      213: -8701533215064071548
+    second: game_over_63
+  - first:
+      213: 1090850558332650511
+    second: game_over_64
+  - first:
+      213: -2196588815581072363
+    second: game_over_65
+  - first:
+      213: 9063081104318871911
+    second: game_over_66
+  - first:
+      213: 4658868811804348449
+    second: game_over_67
+  - first:
+      213: 7783154474224509177
+    second: game_over_68
+  - first:
+      213: -1000901200965806988
+    second: game_over_69
+  - first:
+      213: 3944674247360335302
+    second: game_over_70
+  - first:
+      213: 696219037061528642
+    second: game_over_71
+  - first:
+      213: 6867086340570360019
+    second: game_over_72
+  - first:
+      213: -8518607670202976303
+    second: game_over_73
+  - first:
+      213: 1244832171646409830
+    second: game_over_74
+  - first:
+      213: -7268080493419198318
+    second: game_over_75
+  - first:
+      213: 8748452687138127178
+    second: game_over_76
+  - first:
+      213: 4776517018624678841
+    second: game_over_77
+  - first:
+      213: 8758634009627204820
+    second: game_over_78
+  - first:
+      213: 6992094284633639189
+    second: game_over_79
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game_over_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd359d927c446cc0800000000000000
+      internalID: -3718763337147400751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100f40df3ab20f170800000000000000
+      internalID: 8210110104021037057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cad276cc07fd020800000000000000
+      internalID: 2368735952226856074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca650848145fdb7a0800000000000000
+      internalID: -6359657437032589652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc64f87469424a00800000000000000
+      internalID: 739233984717024504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c020547c3902eef0800000000000000
+      internalID: -80491688085151544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7eac2332ca2ac1d0800000000000000
+      internalID: -3329801960916472196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63d56432ecccf060800000000000000
+      internalID: 6988685993685930858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0261a4d0e943c50800000000000000
+      internalID: 6644109130193051833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_over_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f17a05d22cefc40800000000000000
+      internalID: 5548085290849476359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 77d006b4ca424e7478b3f77f73893c49
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      game_over_0: -3718763337147400751
+      game_over_1: 8210110104021037057
+      game_over_2: 2368735952226856074
+      game_over_3: -6359657437032589652
+      game_over_4: 739233984717024504
+      game_over_5: -80491688085151544
+      game_over_6: -3329801960916472196
+      game_over_7: 6988685993685930858
+      game_over_8: 6644109130193051833
+      game_over_9: 5548085290849476359
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
