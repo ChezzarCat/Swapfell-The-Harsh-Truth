@@ -54,12 +54,17 @@ public class ResolutionManager : MonoBehaviour
             int screenWidth = Screen.currentResolution.width;
             int screenHeight = Screen.currentResolution.height;
 
-            if (screenHeight < 1200)
+            if (screenHeight < 1200) // 1920 X 720
             {
                 newWidth = 1200;
                 newHeight = 900;
             }
-            else
+            else if (screenHeight < 900) // WEIRD ASS MONITORS THAT ARE SOMEHOW SMALLER THAN HD (LIKE DAN'S)
+            {
+                newWidth = 1000;
+                newHeight = 750;
+            }
+            else //OVER 1200 X 900
             {
                 newWidth = 1600;
                 newHeight = 1200;

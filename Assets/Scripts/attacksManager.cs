@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class attacksManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class attacksManager : MonoBehaviour
     public Animator papyrusAnims;
     public soulMovement soulMovement;
     public Animator boxAnim;
+    public GameObject heart;
 
     [Header("SMOKE RINGS")]
     public GameObject[] smokeRings;
@@ -41,6 +43,18 @@ public class attacksManager : MonoBehaviour
     [Header("ATTACK 4")]
     public GameObject pileOfBonesAttack4;
 
+    [Header("ATTACK 5")]
+    public GameObject bigPlatformerAttack5;
+    public GameObject smokewallAttack5;
+
+    [Header("ATTACK 6")]
+    public GameObject cloudsAttack6;
+
+    [Header("ATTACK 7")]
+    public GameObject platformAttack7;
+    public GameObject prefabCloudAttack7;
+    public GameObject smokewallAttack7;
+
     public IEnumerator StartAttackTest()
     {
         soulMovement.ToggleBlueSoul();
@@ -70,7 +84,7 @@ public class attacksManager : MonoBehaviour
         yield return new WaitForSeconds(0.6f);
         smokeRings[4].SetActive(true);
         yield return new WaitForSeconds(1.3f);
-        
+        papyrusAnims.SetTrigger("idleFrozen");
         //jump part
 
         soulMovement.ToggleBlueSoul();
@@ -363,6 +377,130 @@ public class attacksManager : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         smokewallAttack1.SetActive(false);
 
+        turnManager.ChooseAction();
+    }
+
+    public IEnumerator StartAttack5()
+    {
+        float initialValue = boxAnim.GetFloat("Blend");
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 1f, 0.9f)
+						.setEase(LeanTweenType.easeInOutQuart);
+
+					tween.setOnUpdate((float value) =>
+					{
+						// Update the float parameter value during the tween
+						boxAnim.SetFloat("Blend", value);
+					});
+        yield return new WaitForSeconds(1f);
+
+        soulMovement.ToggleBlueSoul();
+        heart.transform.position = new Vector3(-1.313f, -0.223f, -6);
+        CameraShaker.Instance.ShakeOnce(0.5f, 10f, 0f, 0.5f);
+        bigPlatformerAttack5.SetActive(true);
+
+        smokewallAttack5.transform.position = new Vector2(-1.181f, -0.528f);
+            LeanTween.moveX(smokewallAttack5, 1.726f, 11f);
+
+        yield return new WaitForSeconds(11f);
+        bigPlatformerAttack5.SetActive(false);
+
+        CameraShaker.Instance.ShakeOnce(0.5f, 10f, 0f, 0.5f);
+        soulMovement.ToggleBlueSoul();
+        turnManager.ChooseAction();
+    }
+
+    public IEnumerator StartAttack6()
+    {
+        float initialValue = boxAnim.GetFloat("Blend");
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 0.2f, 0.9f)
+						.setEase(LeanTweenType.easeInOutQuart);
+
+					tween.setOnUpdate((float value) =>
+					{
+						// Update the float parameter value during the tween
+						boxAnim.SetFloat("Blend", value);
+					});
+        yield return new WaitForSeconds(1f);
+
+        cloudsAttack6.SetActive(true);
+
+        cloudsAttack6.transform.position = new Vector2(2, 0);
+            LeanTween.moveX(cloudsAttack6, -4.8f, 14f);
+
+        yield return new WaitForSeconds(14f);
+        cloudsAttack6.SetActive(false);
+        turnManager.ChooseAction();
+    }
+
+    IEnumerator attack7PlatformMovement()
+    {
+        while (true)
+        {
+            LeanTween.moveX(platformAttack7, -0.2f, 1.5f);
+            yield return new WaitForSeconds(1.5f);
+            LeanTween.moveX(platformAttack7, 0.2f, 1.5f);
+            yield return new WaitForSeconds(1.5f);
+        }
+        
+    }
+
+    public IEnumerator StartAttack7()
+    {
+        float initialValue = boxAnim.GetFloat("Blend");
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 0, 0.9f)
+						.setEase(LeanTweenType.easeInOutQuart);
+
+					tween.setOnUpdate((float value) =>
+					{
+						// Update the float parameter value during the tween
+						boxAnim.SetFloat("Blend", value);
+					});
+        yield return new WaitForSeconds(1f);
+        soulMovement.ToggleBlueSoul();
+        yield return new WaitForSeconds(0.2f);
+
+        platformAttack7.SetActive(true);
+        platformAttack7.transform.position = new Vector2(-1, -0.5f);
+        LeanTween.moveX(platformAttack7, 0, 1f)
+            .setEase(LeanTweenType.easeOutQuad);
+
+        yield return new WaitForSeconds(1f);
+
+        warningArrack1PositionAnim.SetTrigger("Down");
+        warningsmokewallAttack1.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+        warningsmokewallAttack1.SetActive(false);
+        smokewallAttack7.SetActive(true);
+
+        FindFirstObjectByType<SAudioManager>().Play("SmokeWall");
+        
+            LeanTween.moveY(smokewallAttack7, -0.3f, 0.6f)
+            .setEase(LeanTweenType.easeOutQuad);
+                yield return new WaitForSeconds(0.6f);
+
+        yield return new WaitForSeconds(1f);
+
+        StartCoroutine("attack7PlatformMovement");
+
+        float startTime = Time.time;
+
+        while (Time.time - startTime < 15.0f)
+        {
+            float randomPosCloudAttack7 = Random.Range(-0.35f, 0.35f);
+            Instantiate(prefabCloudAttack7, new Vector3(randomPosCloudAttack7, -0.9f, 0), Quaternion.identity);
+            
+            yield return new WaitForSeconds(0.8f);
+        }
+
+        yield return new WaitForSeconds(2f);
+
+        LeanTween.moveY(smokewallAttack7, -0.47f, 0.3f)
+            .setEase(LeanTweenType.easeInQuad);
+        yield return new WaitForSeconds(0.3f);
+
+        StopCoroutine("attack7PlatformMovement");
+        smokewallAttack7.SetActive(false);
+        platformAttack7.SetActive(false);
         turnManager.ChooseAction();
     }
     

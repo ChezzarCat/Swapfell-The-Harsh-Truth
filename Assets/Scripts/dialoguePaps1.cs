@@ -14,6 +14,11 @@ public class dialoguePaps1 : MonoBehaviour
     public dialogue dialogue2;
     public dialogue dialogue3;
     public dialogue dialogue4;
+    public dialogue dialogue5;
+    public dialogue dialogue6;
+    public dialogue dialogue7;
+    
+
     private int currentDeath;
 
     void Start()
@@ -45,32 +50,40 @@ public class dialoguePaps1 : MonoBehaviour
         yield return null;
     }
 
-    public IEnumerator StartDialogue2()
-    {
+    public IEnumerator StartDialogue2(){
         FindFirstObjectByType<dialogueManagerBattle>().StartDialogue(dialogue2);
         yield return null;
         
     }
 
-    public IEnumerator StartDialogue3()
-    {
+    public IEnumerator StartDialogue3(){
         FindFirstObjectByType<dialogueManagerBattle>().StartDialogue(dialogue3);
         yield return null;
-        
     }
 
-    public IEnumerator StartDialogue4()
-    {
+    public IEnumerator StartDialogue4(){
         FindFirstObjectByType<dialogueManagerBattle>().StartDialogue(dialogue4);
         yield return null;
-        
     }
 
-    public IEnumerator FeeDialogue()
-    {
+    public IEnumerator StartDialogue5(){
+        FindFirstObjectByType<dialogueManagerBattle>().StartDialogue(dialogue5);
+        yield return null;
+    }
+
+    public IEnumerator StartDialogue6(){
+        FindFirstObjectByType<dialogueManagerBattle>().StartDialogue(dialogue6);
+        yield return null;
+    }
+
+    public IEnumerator StartDialogue7(){
+        FindFirstObjectByType<dialogueManagerBattle>().StartDialogue(dialogue7);
+        yield return null;
+    }
+
+    public IEnumerator FeeDialogue(){
         FindFirstObjectByType<dialogueManagerBattle>().StartDialogue(dialoguefee);
         yield return null;
-        
     }
 
 }

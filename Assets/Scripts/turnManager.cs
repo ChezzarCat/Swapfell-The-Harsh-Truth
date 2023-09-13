@@ -61,6 +61,15 @@ public class turnManager : MonoBehaviour
                 case 4:
                     dialoguePaps.StartCoroutine("StartDialogue4");
                     break;
+                case 5:
+                    dialoguePaps.StartCoroutine("StartDialogue5");
+                    break;
+                case 6:
+                    dialoguePaps.StartCoroutine("StartDialogue6");
+                    break;
+                case 7:
+                    dialoguePaps.StartCoroutine("StartDialogue7");
+                    break;
             }
         }
         else
@@ -90,6 +99,15 @@ public class turnManager : MonoBehaviour
                         break;
                     case 4:
                         attacksManager.StartCoroutine("StartAttack4");
+                        break;
+                    case 5:
+                        attacksManager.StartCoroutine("StartAttack5");
+                        break;
+                    case 6:
+                        attacksManager.StartCoroutine("StartAttack6");
+                        break;
+                    case 7:
+                        attacksManager.StartCoroutine("StartAttack7");
                         break;
                 }
             }

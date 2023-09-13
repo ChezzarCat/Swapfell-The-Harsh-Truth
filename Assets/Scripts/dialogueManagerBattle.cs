@@ -154,10 +154,6 @@ public class dialogueManagerBattle : MonoBehaviour
 				
 			}
 
-			hasFinishedWritting = true;
-			skipwritting = false;
-			isWritting = false;
-
 			switch (face)
 			{
 				case "idle":
@@ -193,6 +189,10 @@ public class dialogueManagerBattle : MonoBehaviour
 				break;
 			}
 
+			StartCoroutine("talkEnd", face);
+
+			
+
 		} else 
 		{
 			pauseface = true;
@@ -206,6 +206,15 @@ public class dialogueManagerBattle : MonoBehaviour
     	
 
     }
+
+	IEnumerator talkEnd()
+	{
+		yield return new WaitForSeconds(0.2f);
+		hasFinishedWritting = true;
+		skipwritting = false;
+		isWritting = false;
+		
+	}
     
 
     void EndDialogue()
