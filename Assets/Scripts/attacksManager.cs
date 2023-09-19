@@ -279,8 +279,7 @@ public class attacksManager : MonoBehaviour
     {
         soulMovement.ToggleBlueSoul();
         float initialValue = boxAnim.GetFloat("Blend");
-					LTDescr tween = LeanTween.value(gameObject, initialValue, 0.5f, 0.9f)
-						.setEase(LeanTweenType.easeInOutQuart);
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 0.5f, 0.9f).setEase(LeanTweenType.easeInOutQuart);
 
 					tween.setOnUpdate((float value) =>
 					{
@@ -305,8 +304,7 @@ public class attacksManager : MonoBehaviour
     public IEnumerator StartAttack3()
     {
         float initialValue = boxAnim.GetFloat("Blend");
-					LTDescr tween = LeanTween.value(gameObject, initialValue, 0.4f, 0.9f)
-						.setEase(LeanTweenType.easeInOutQuart);
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 0.4f, 0.9f).setEase(LeanTweenType.easeInOutQuart);
 
 					tween.setOnUpdate((float value) =>
 					{
@@ -343,8 +341,7 @@ public class attacksManager : MonoBehaviour
     public IEnumerator StartAttack4()
     {
         float initialValue = boxAnim.GetFloat("Blend");
-					LTDescr tween = LeanTween.value(gameObject, initialValue, 0f, 0.9f)
-						.setEase(LeanTweenType.easeInOutQuart);
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 0f, 0.9f).setEase(LeanTweenType.easeInOutQuart);
 
 					tween.setOnUpdate((float value) =>
 					{
@@ -383,8 +380,7 @@ public class attacksManager : MonoBehaviour
     public IEnumerator StartAttack5()
     {
         float initialValue = boxAnim.GetFloat("Blend");
-					LTDescr tween = LeanTween.value(gameObject, initialValue, 1f, 0.9f)
-						.setEase(LeanTweenType.easeInOutQuart);
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 1f, 0.9f).setEase(LeanTweenType.easeInOutQuart);
 
 					tween.setOnUpdate((float value) =>
 					{
@@ -412,8 +408,7 @@ public class attacksManager : MonoBehaviour
     public IEnumerator StartAttack6()
     {
         float initialValue = boxAnim.GetFloat("Blend");
-					LTDescr tween = LeanTween.value(gameObject, initialValue, 0.2f, 0.9f)
-						.setEase(LeanTweenType.easeInOutQuart);
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 0.2f, 0.9f).setEase(LeanTweenType.easeInOutQuart);
 
 					tween.setOnUpdate((float value) =>
 					{
@@ -436,10 +431,12 @@ public class attacksManager : MonoBehaviour
     {
         while (true)
         {
-            LeanTween.moveX(platformAttack7, -0.2f, 1.5f);
-            yield return new WaitForSeconds(1.5f);
-            LeanTween.moveX(platformAttack7, 0.2f, 1.5f);
-            yield return new WaitForSeconds(1.5f);
+            LeanTween.moveX(platformAttack7, -0.2f, 2f)
+            .setEase(LeanTweenType.easeOutQuad);
+            yield return new WaitForSeconds(2f);
+            LeanTween.moveX(platformAttack7, 0.2f, 2f)
+            .setEase(LeanTweenType.easeOutQuad);
+            yield return new WaitForSeconds(2f);
         }
         
     }
@@ -447,8 +444,7 @@ public class attacksManager : MonoBehaviour
     public IEnumerator StartAttack7()
     {
         float initialValue = boxAnim.GetFloat("Blend");
-					LTDescr tween = LeanTween.value(gameObject, initialValue, 0, 0.9f)
-						.setEase(LeanTweenType.easeInOutQuart);
+					LTDescr tween = LeanTween.value(gameObject, initialValue, 0, 0.9f).setEase(LeanTweenType.easeInOutQuart);
 
 					tween.setOnUpdate((float value) =>
 					{
@@ -464,7 +460,7 @@ public class attacksManager : MonoBehaviour
         LeanTween.moveX(platformAttack7, 0, 1f)
             .setEase(LeanTweenType.easeOutQuad);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         warningArrack1PositionAnim.SetTrigger("Down");
         warningsmokewallAttack1.SetActive(true);
@@ -474,8 +470,7 @@ public class attacksManager : MonoBehaviour
 
         FindFirstObjectByType<SAudioManager>().Play("SmokeWall");
         
-            LeanTween.moveY(smokewallAttack7, -0.3f, 0.6f)
-            .setEase(LeanTweenType.easeOutQuad);
+            LeanTween.moveY(smokewallAttack7, -0.3f, 0.6f).setEase(LeanTweenType.easeOutQuad);
                 yield return new WaitForSeconds(0.6f);
 
         yield return new WaitForSeconds(1f);
@@ -483,10 +478,18 @@ public class attacksManager : MonoBehaviour
         StartCoroutine("attack7PlatformMovement");
 
         float startTime = Time.time;
+        float lastGeneratedX = 0.0f; // Initialize the last X position
 
         while (Time.time - startTime < 15.0f)
         {
-            float randomPosCloudAttack7 = Random.Range(-0.35f, 0.35f);
+            float randomPosCloudAttack7;
+            
+            do
+            {
+                randomPosCloudAttack7 = Random.Range(-0.35f, 0.35f);
+            } while (Mathf.Abs(randomPosCloudAttack7 - lastGeneratedX) < 0.1f); // Check the difference
+
+            lastGeneratedX = randomPosCloudAttack7; // Update the last X position
             Instantiate(prefabCloudAttack7, new Vector3(randomPosCloudAttack7, -0.9f, 0), Quaternion.identity);
             
             yield return new WaitForSeconds(0.8f);
