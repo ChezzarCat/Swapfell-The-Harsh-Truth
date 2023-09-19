@@ -115,14 +115,14 @@ public class soulMovement : MonoBehaviour
             {                
                 movement.x = Input.GetAxisRaw("Horizontal");
                 
-                if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
+                if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) && isGrounded)
                 {
                     isJumping = true;
                     jumpTimeCounter = jumpTime;
                     rb.velocity = Vector2.up * jumpSpeed;
                 }
 
-                if (Input.GetKey(KeyCode.UpArrow) && isJumping == true)
+                if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W) && isJumping == true)
                 {
                     if (jumpTimeCounter > 0)
                     {
@@ -135,7 +135,7 @@ public class soulMovement : MonoBehaviour
                     
                 }
 
-                if (Input.GetKeyUp(KeyCode.UpArrow))
+                if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.W))
                 {
                     isJumping = false;
                     Vector2 newVelocity = rb.velocity;

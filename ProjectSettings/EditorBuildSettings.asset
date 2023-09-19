@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/NameSelector.unity
     guid: 87409fdb7ae8e6745850b56bb46585f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Overworld - Geno.unity
     guid: bb8abd1abfa5d044b99ad8dadf4a6290
   - enabled: 1
     path: Assets/Scenes/Geno Battle.unity
     guid: 1c6353fabc45ff84ebbc53b9ec5b65b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GAME OVER.unity
     guid: a405c2e30e81af648bb975fa9f637b7f
   m_configObjects: {}
